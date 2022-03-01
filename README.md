@@ -1,5 +1,8 @@
 # SmartCalc v2.0
 
+> При старте работы над проектом просим вас постараться хронометрировать время работы над проектом.
+> По завершении работы над проектом просим вас ответить на два вопроса [в этом опросе](https://forms.gle/GmDeKHa7bJN3fKAo8)
+
 Implementation of SmartCalc v2.0.
 
 The russian version of the task can be found in the repository.
@@ -89,10 +92,11 @@ You need to implement the SmartCalc v2.0:
 - Both integers and real numbers with a dot can be input into the program. You should provide the input of numbers in exponential notation
 - The calculation must be done after you complete entering the calculating expression and press the `=` symbol.
 - Calculating arbitrary bracketed arithmetic expressions in infix notation
-- Calculate arbitrary bracketed arithmetic expressions in infix notation with substitution of the value of _x_
+- Calculate arbitrary bracketed arithmetic expressions in infix notation with substitution of the value of the variable _x_ as a number
 - Plotting a graph of a function given by an expression in infix notation with the variable _x_ (with coordinate axes, mark of the used scale and an adaptive grid)
    - It is not necessary to provide the user with the ability to change the scale
 - Domain and codomain of a function are limited to at least numbers from -1000000 to 1000000
+   - To plot a graph of a function it is necessary to additionally specify the displayed domain and codomain
 - Verifiable accuracy of the fractional part is at least to 7 decimal places
 - Users must be able to enter up to 255 characters
 - Bracketed arithmetic expressions in infix notation must support the following arithmetic operations and mathematical functions:
@@ -108,6 +112,7 @@ You need to implement the SmartCalc v2.0:
       | Modulus | a mod b | mod a b | a b mod |
       | Unary plus | +a | +a | a+ |
       | Unary minus | -a | -a | a- |
+      >Note that the multiplication operator contains the obligatory sign `*`. Processing an expression with the omitted `*` sign is optional and is left to the developer's decision
    - **Functions**:
       | Function description | Function |
       | ------ | ------ |
