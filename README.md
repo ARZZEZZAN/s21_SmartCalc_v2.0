@@ -79,12 +79,12 @@ The view includes all code associated with the program interface. An ideal inter
 
 You need to implement the SmartCalc v2.0:
 
-- The program must be developed in C++ language of C++20 standard
+- The program must be developed in C++ language of C++17 standard
 - The program code must be located in the src folder
 - Classes must be implemented within the `s21` namespace
 - Prepare full coverage of expression calculation modules with unit-tests using the GTest library
 - The program must be built with Makefile which contains standard set of targets for GNU-programs: all, install, uninstall, clean, dvi, dist, tests. Installation directory could be arbitrary
-- GUI implementation, based on any GUI library with API for C++20: Qt, SFML, GTK+, Nanogui, Nngui, etc.
+- GUI implementation, based on any GUI library with API for C++17: Qt, SFML, GTK+, Nanogui, Nngui, etc.
 - The program must be implemented using the MVC pattern, and also:
    - there should be no business logic code in the view code
    - there should be no interface code in the controller and the model
