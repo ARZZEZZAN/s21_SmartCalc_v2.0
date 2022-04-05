@@ -21,6 +21,8 @@ The russian version of the task can be found in the repository.
 
 ## Chapter I
 
+![smartcalcv2.0](misc/images/smartcalcv2.0.PNG)
+
 Planet Earth, USA, California, somewhere in Cupertino, 20 August 1983.
 
 Chris put a paper cup of coffee next to you on the table, so that woke you up.
