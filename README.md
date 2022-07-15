@@ -83,6 +83,7 @@ You need to implement the SmartCalc v2.0:
 
 - The program must be developed in C++ language of C++17 standard
 - The program code must be located in the src folder
+- When writing code it is necessary to follow the Google style
 - Classes must be implemented within the `s21` namespace
 - Prepare full coverage of expression calculation modules with unit-tests using the GTest library
 - The program must be built with Makefile which contains standard set of targets for GNU-programs: all, install, uninstall, clean, dvi, dist, tests. Installation directory could be arbitrary
