@@ -1,8 +1,5 @@
 # SmartCalc v2.0
 
-> При старте работы над проектом просим вас постараться хронометрировать время работы над проектом.
-> По завершении работы над проектом просим вас ответить на два вопроса [в этом опросе](https://forms.gle/GmDeKHa7bJN3fKAo8)
-
 Implementation of SmartCalc v2.0.
 
 The russian version of the task can be found in the repository.
@@ -140,3 +137,5 @@ Provide a special mode "credit calculator" (you can take banki.ru and calcus.ru 
 Provide a special mode "deposit profitability calculator" (you can take banki.ru and calcus.ru as an example):
 - Input: deposit amount, deposit term, interest rate, tax rate, periodicity of payments, capitalization of interest, replenishments list, partial withdrawals list
 - Output: accrued interest, tax amount, deposit amount by the end of the term
+
+💡 [Tap here](https://forms.yandex.ru/u/635a8684068ff01a3d20bfce/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
